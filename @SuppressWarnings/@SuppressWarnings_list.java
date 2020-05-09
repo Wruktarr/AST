@@ -3,7 +3,7 @@
 /* +-------------------------------------------------------+ */
 // Most Common Annotations
 
-@SuppressWarnings("all")
+@SuppressWarnings("ALL")
 @SuppressWarnings("unchecked")
 @SuppressWarnings({"JavaDoc"})
 @SuppressWarnings({"UnusedDeclaration"})
