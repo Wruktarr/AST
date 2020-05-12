@@ -1,6 +1,8 @@
 /* +-------------------------------------------------------+ */
 /* | - Android Studio @SuppressWarnings annotations list - | */
 /* +-------------------------------------------------------+ */
+
+
 // Most Common Annotations
 
 @SuppressWarnings("ALL")
@@ -45,7 +47,9 @@
 @SuppressWarnings({"CallToSimpleGetterFromWithinClass"})
 @SuppressWarnings({"SimplifiableIfStatement"})
 
+
 // Local Inspections
+
 @SuppressWarnings("UndesirableClassUsage")
 @SuppressWarnings("FileEqualsUsage")
 @SuppressWarnings("GtkPreferredJComboBoxRenderer")
@@ -91,7 +95,9 @@
 @SuppressWarnings("JavacQuirks")
 @SuppressWarnings("MagicConstant")
 
+
 // Global Inspections
+
 @SuppressWarnings("WeakerAccess")
 @SuppressWarnings("CanBeFinal")
 @SuppressWarnings("UnusedParameters")
