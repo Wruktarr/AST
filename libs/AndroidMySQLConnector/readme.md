@@ -16,8 +16,8 @@ Please read more about how to use library here: [@Android-MySQL-Connector > Usin
 #### Adding dependency to your project
 * _Create Android Studio project_
 * Download 'AndroidMySQLConnector.aar'
-* Put file in your project's **libs** folder
-* Replace following line in your project's **app\grade.build**:
+* Put file in your project's **app\libs** folder
+* Replace following line in your project's **app\grade.build** file:
   ```
   dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
