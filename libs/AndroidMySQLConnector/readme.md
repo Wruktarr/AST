@@ -1,5 +1,6 @@
 ## Android MySQL Connector
 **.AAR** dependency built from [@Android-MySQL-Connector](https://github.com/BoardiesITSolutions/Android-MySQL-Connector).
+
 Please read more about how to use library here: [@Android-MySQL-Connector > Using the Library](https://github.com/BoardiesITSolutions/Android-MySQL-Connector#using-the-library)
 
 #### Supported MySQL Versions
@@ -17,11 +18,15 @@ Please read more about how to use library here: [@Android-MySQL-Connector > Usin
 * Download 'AndroidMySQLConnector.aar'
 * Put file in your project's **libs** folder
 * Replace following line in your project's **app\grade.build**:
-  * dependencies {
-    * implementation fileTree(include: ['*.jar'], dir: 'libs')
-    * ...
+  ```
+  dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    ...
+  ```
 * Replace it by this:
-  * dependencies {
-    * implementation fileTree(include: ['*.jar'__, '*.aar'__], dir: 'libs')
-    * ...
+  ```
+  dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    ...
+  ```
 * Ready to use!
